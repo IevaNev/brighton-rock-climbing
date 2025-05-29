@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&display=swap');
 
-h1 {
-    font-family: "Lacquer", sans-serif ;
+/* CSS Variales */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Lacquer", sans-serif;
+    --primary-color: #154c79; /* blue */
+    --secondary-color: #a3becc; /* light blue */
+    --highlight-color: #f46a45; /* orange */
+    --highlight-color-light: #edad9d; /* light orange */
 }
 
-p{
-    font-family: "Inter", sans-serif;
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.container, .row {
+    border: 2px black;
+}
+
+.col-12 {
+    border: 2px solid;
+    background-color: #a3becc;
 }
