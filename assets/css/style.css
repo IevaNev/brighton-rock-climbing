@@ -14,12 +14,12 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+/* Navbar */
 
-.container, .row {
-    border: 2px black;
+#navbar {
+    background-color: var(--primary-color);
+    color: white
 }
-
-.col-12 {
-    border: 2px solid;
-    background-color: #a3becc;
+#navbar .logo {
+    width: 40px
 }
