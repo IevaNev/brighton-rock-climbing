@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* CSS Variales */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Lacquer", sans-serif;
+    --secondary-font: "Noto", sans-serif;
     --primary-color: #154c79; /* blue */
     --secondary-color: #a3becc; /* light blue */
     --highlight-color: #f46a45; /* orange */
@@ -22,4 +23,20 @@ h1, h2, h3 {
 }
 #navbar .logo {
     width: 40px
+}
+
+/* Header */
+
+#header img {
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    color: var(--primary-color);
 }
