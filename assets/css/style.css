@@ -20,8 +20,13 @@ h1, h2, h3 {
     background-color: var(--primary-color);
     color: white
 }
-#navbar .logo {
-    width: 40px
+.navbar img {
+    width: 120px;
+    height: 120px;
+}
+
+#navbar {
+    height: 80px
 }
 
 /* Header */
