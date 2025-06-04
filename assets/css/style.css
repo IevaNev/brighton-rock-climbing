@@ -68,13 +68,6 @@ h1, h2, h3 {
 
 /* Footer */
 
-#contact img {
-    width: 100px;
-    height: 100px;
-    padding-left: 0%;
-
-}
-
 #contact {
     background-color: var(--primary-color);
     color: white;
@@ -87,7 +80,7 @@ h1, h2, h3 {
 
 #contact i {
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size: 15px;
     margin-right: 16px;
 }
 
@@ -105,3 +98,4 @@ h1, h2, h3 {
     background-color: (var(--primary-color)) !important;
     color: white;
   }
+
