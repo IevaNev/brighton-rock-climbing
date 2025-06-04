@@ -14,7 +14,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!-- classes on body set to work with fixed-bottom on footer to keep footer at the bottom of the page-->
+<!-- classes on body set to work with mt-auto on footer to keep footer at the bottom of the page-->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
@@ -63,14 +63,41 @@
         </div>
      </header>
 <!-- Main element to hold all key sections of home page --> 
-     <main>
+ <!-- Services -->
+     <main id="services">
         <section class="container">
-            <div class="row">
-                <div col-12>Services section Heading</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+            <div class="row justify-content-center">
+                <div col-12>
+                    <h2>Services</h2>
+                </div>
+                <div class="card col-12 col-md-6 mx-2 my-2" style="width: 15rem;">
+                    <img src="assets/images/equipment.jpeg" class="card-img-top mt-2" alt="climbing equipment image">
+                    <div class="card-body">
+                      <h4>Equipment Hire</h4>
+                      <p class="card-text">We've got it covered - shoes, chalk bags, harnesses, helmets and belay devices.</p>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 mx-2 my-2" style="width: 15rem;">
+                  <img src="assets/images/youth.png" class="card-img-top mt-2" alt="Image of happy girl at climbing gym">
+                  <div class="card-body">
+                      <h4>Youth club</h4>
+                      <p class="card-text">Enroll you child in one of our youth programs.</p>
+                    </div>
+                  </div>
+                  <div class="card col-12 col-md-6 mx-2 my-2" style="width: 15rem;">
+                    <img src="assets/images/social.png" class="card-img-top mt-2" alt="Two girls chatting at the gym">
+                    <div class="card-body">
+                      <h4>Social Events</h4>
+                      <p class="card-text">Meet likeminded people at our socials: womens only, LGBTQ or quiet sessions.</p>
+                    </div>
+                  </div>
+                  <div class="card col-12 col-md-6 mx-2 my-2" style="width: 15rem;">
+                    <img src="assets/images/cafe.png" class="card-img-top mt-2" alt="Image of coffee and sweet pastries">
+                    <div class="card-body">
+                      <h4>Cafe</h4>
+                      <p class="card-text">Refuel your energy for longer session and catch up with your climbing buddies.</p>
+                    </div>
+                  </div>
             </div>
         </section>
 
