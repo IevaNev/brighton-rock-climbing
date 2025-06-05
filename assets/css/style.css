@@ -112,7 +112,6 @@ h1, h2, h3 {
 }
 
 .table {
-    width: 300px;
     background-color: var(--primary-color);
     color: white;
 }
