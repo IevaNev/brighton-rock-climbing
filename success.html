@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Brighton Rock | Home</title>
+    <!-- favicon produced by favicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- classes on body set to work with mt-auto on footer to keep footer at the bottom of the page -->
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo-transparent.png" alt="Brighton Rock logo" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="booking.html" class="btn btn-outline-primary btn-one">Book now</a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Success message -->
+
+      <main id="success" class="container section text-center">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <h1 class="display-3">Thank you!</h1>
+            <p class="lead">Your form has been submitted successfully.<br>
+            A confirmation has been sent to your email.</p>
+            <a class="btn btn-primary mb-5">Return to the home page</a>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer / Contacts, opening times and Map -->
+      <footer class="mt-auto" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 justify-content-center">
+                  <h2>Contact us</h2>
+                </div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-4 col-xl-4">
+                    <address>
+                      <strong><i class="fa-solid fa-location-pin mt-4"></i> Brighton Rock climbing</strong><br>
+                      48A Rocky road<br>
+                      Brighton, BN1 6LL
+                    </address>
+                    <p>
+                      <i class="fa-solid fa-phone"></i> 01237 567 564 <br>
+                      <i class="fa-solid fa-envelope"></i> info@brightonrock.co.uk
+                    </p>
+                    <div class="social-links mt-2">
+                      <a href="https://www.facebook.com/" target="_blank"
+                      aria-label="Visit our Facebook page (opens in new tab)" rel="noopener">
+                      <i class="fa-brands fa-facebook"></i>
+                      </a>
+                      <a href="https://www.instagram.com/" target="_blank"
+                      aria-label="Visit our Instagram page (opens in neew tab)" rel="noopener">
+                      <i class="fa-brands fa-instagram"></i>
+                      </a>
+                      <a href="https://www.twitter.com/" target="_blank"
+                      aria-label="Visit our Twitter page (opens in new tab)" rel="noopener">
+                      <i class="fa-brands fa-x-twitter"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Opening times -->
+                  <div class="col-12 col-md-4 mt-4">
+                    <strong>Opening times</strong>
+                  <table class="table opening-times-table">
+                    <tbody>
+                      <tr>
+                        <td scope="row">Monday - Friday</td>
+                        <td>8am - 10pm</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Saturday</td>
+                        <td>9am - 9pm</td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Sunday</td>
+                        <td>10am - 6pm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+                  <!-- Map -->
+                  <div class="col-12 col-md-4 mb-3">
+                    <h4>Find us</h4>
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80629.24517168425!2d-0.18859055256490007!3d50.837388936377224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758509f6294167%3A0x9cc6af7a727d0ef9!2sBrighton%2C%20Brighton%20and%20Hove!5e0!3m2!1sen!2suk!4v1749052948122!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                      </iframe>
+                  </div>
+              </div>
+          </div>
+       </footer>
+
+
+  <!-- Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <!-- Fontawesome kit -->
+  <script src="https://kit.fontawesome.com/f208161fb2.js" crossorigin="anonymous"></script>
+</body>
+</html>

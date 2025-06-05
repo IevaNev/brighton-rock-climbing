@@ -44,6 +44,61 @@
     </div>
   </nav>
 
+  <!-- Header section -->
+
+  <header id="header" class="container mt-4">
+    <div class="row justify-content-center">
+        <h1 class="col-12" col-md-8 text-center display-3 >Brighton Rock Climbing</h1>
+        <p class my-4>
+            Ready to Climb?
+            Secure your spot and skip the wait—book your climbing session in advance! 
+            Whether you're a first-timer or a seasoned climber, our online booking system 
+            makes it easy to choose a time that works for you. Select from open gym sessions, 
+            intro classes, or group bookings. 
+            Walk-ins are welcome, but availability is limited—so we recommend booking ahead to
+            guarantee your climb.
+        </p>
+    </div>
+  </header>
+
+<!-- Booking form section -->
+<section id="booking-form" class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <form action="success.html" method="get">
+          <div class="container mt-5">
+            <h2 class="mb-4">Book your session</h2>
+  
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+              </div>
+  
+              <div class="col-md-6 mb-3">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Enter your address" required>
+              </div>
+  
+              <div class="col-md-6 mb-3">
+                <label for="town" class="form-label">Town</label>
+                <input type="text" class="form-control" id="town" name="town" placeholder="Town" required>
+              </div>
+  
+              <div class="col-md-6 mb-4">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date" name="date" required>
+              </div>
+  
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 <!-- Footer / Contacts, opening times and Map -->
 <footer class="mt-auto" id="contact">
     <div class="container">
@@ -114,7 +169,6 @@
    </footer>
 
    <!-- Bootstrap JS -->
-
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
    <!-- Fontawesome kit -->
    <script src="https://kit.fontawesome.com/f208161fb2.js" crossorigin="anonymous"></script>
