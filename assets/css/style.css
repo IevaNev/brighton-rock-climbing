@@ -5,7 +5,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Noto", sans-serif;
     --primary-color: #154c79; /* blue */
-    --secondary-color: #a3becc; /* light blue */
+    --secondary-color: #cde8f6; /* light blue */
     --highlight-color: #f46a45; /* orange */
     --highlight-color-light: #edad9d; /* light orange */
 }
@@ -14,6 +14,33 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.custom-button-filled:hover {
+    border: 2px solid white;
+    background-color: white);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 2px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color)
+}
+
+.custom-button-outline:hover {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+
 /* Navbar */
 
 #navbar {
