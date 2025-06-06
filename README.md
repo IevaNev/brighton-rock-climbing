@@ -8,45 +8,23 @@ Developer: Ieva Zdaneviciute ([IevaNev](https://www.github.com/IevaNev))
 
 This website was developed to serve as the digital front for a fictional indoor climbing gym "Brighton Rock Climbing" providing user friendly platform to showcase the services, contact information and a booking form to book a climbing session. The goal is to deliver a responsive, accessible and informative experience for visitors, with an emphasis on usability and clear navigation. This README outlines the website's purpose, core features and the technical stack.
 
-
-
-**Site Mockups**
-*([amiresponsive](https://ui.dev/amiresponsive?url=https://ievanev.github.io/brighton-rock-climbing), [techsini](https://techsini.com/multi-mockup), etc.)*
-Having issues generating site mockups? This is likely due to security policies with your deployed site.
-If you open up your DevTools, there may be an error referencing `X-Frame-Options`.
-
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser. Once installed, navigate back to the mockup site of your choice. You should find your site rendering in the various devices now.
-
-Alternatively, open your project in Gitpod and run the server. Once the site is running, click the `Ports` tab from your Gitpod Terminal. Click the padlock on the appropriate port for your project (`Flask: 5000`, `Django: 8000`). This will make your local page public temporarily. Now, copy the URL of your live-preview page into the responsive tool above. You should find your site rendering in the various devices.
-
-🛑 --- END ---- 🛑
-
-![screenshot](documentation/mockup.png)
-
-source: [brighton-rock-climbing amiresponsive](https://ui.dev/amiresponsive?url=https://ievanev.github.io/brighton-rock-climbing)
-
-> [!IMPORTANT]
-> The examples in these templates are strongly influenced by the Code Institute walkthrough project called "Love Running".
-
 ## UX
 
 ### The 5 Planes of UX
 
-⚠️ NOTE: make sure to update the text below to match your own project! ⚠️
-
 #### 1. Strategy
 
 **Purpose**
-- Encourage users to join the running club by showcasing its mission, community spirit, and benefits.
+- Encourage users to join the climbing gym.
 - Provide a seamless user experience to keep users informed and engaged.
 
 **Primary User Needs**
-- Learn about the club’s purpose and events.
-- Join the club and stay updated.
+- Learn about gym's purpose and events.
+- Join the gym and stay updated.
 - Access responsive, user-friendly content.
 
 **Business Goals**
-- Increase club membership.
+- Increase gym's membership.
 - Boost participation in events and social media engagement.
 
 #### 2. Scope
@@ -54,10 +32,9 @@ source: [brighton-rock-climbing amiresponsive](https://ui.dev/amiresponsive?url=
 **[Features](#features)** (see below)
 
 **Content Requirements**
-- Clear, motivational text about the club’s mission.
+- Clear, motivational text about the gym's mission.
 - Photos showcasing the community.
-- Event schedules and descriptions.
-- Forms for membership sign-up.
+- Forms for booking session/sign-up.
 
 #### 3. Structure
 
@@ -69,11 +46,10 @@ source: [brighton-rock-climbing amiresponsive](https://ui.dev/amiresponsive?url=
   - Prominent placement of social media links in the footer.
 
 **User Flow**
-1. User lands on the home page → learns about the club’s mission.
-2. Navigates to the schedule/timetable → sees sessions they can join.
-3. Views the events → checks upcoming/past event details.
-4. Signs up via the membership page.
-5. Browses the gallery → explores the community spirit.
+1. User lands on the home page → learns about the gym's mission and services.
+2. Navigates to the timetable, contacts and map → sees where gym is and how to contact.
+3. Call to action buttons → booking form.
+4. Signs up via the booking page.
 
 #### 4. Skeleton
 

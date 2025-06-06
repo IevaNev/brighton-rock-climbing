@@ -6,13 +6,15 @@
     --secondary-font: "Noto", sans-serif;
     --primary-color: #154c79; /* blue */
     --secondary-color: #cde8f6; /* light blue */
-    --highlight-color: #f46a45; /* orange */
-    --highlight-color-light: #edad9d; /* light orange */
 }
 
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+p {
+    font-family: var(--secondary-font);
 }
 
 /* Buttons */
@@ -25,7 +27,7 @@ h1, h2, h3 {
 
 .custom-button-filled:hover {
     border: 2px solid white;
-    background-color: white);
+    background-color: white;
     color: white;
 }
 
@@ -116,12 +118,16 @@ h1, h2, h3 {
     color: white;
 }
 
+.table th {
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
 .opening-times-table {
     background-color: var(--primary-color) !important;
 }
 
 .opening-times-table td {
-    background-color: (var(--primary-color)) !important;
+    background-color: var(--primary-color) !important;
     color: white;
   }
-
